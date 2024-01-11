@@ -1,0 +1,18 @@
+.AboutSection {
+    background-image: url("../Assets/pexels-ovan-57690.jpg");
+    padding: 20px;
+    height:500px ;
+    border: solid black;
+    padding: 1%;
+    margin: 40px;
+    color: rgb(221, 231, 240);
+     filter: blur(3px);
+    
+}
+
+.Aboutme h1{
+ height: 100%;
+ width: fit-content;
+ filter:opacity();
+
+}
