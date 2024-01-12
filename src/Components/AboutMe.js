@@ -6,9 +6,10 @@ const AboutMe = () => {
   return (
     <div>
       <div className="AboutSection">
-   
+   </div>
      <div className="Aboutme">
-      <h1>ALL ABOUT ME</h1>
+      <h1>ALL ABOUT ME</h1>  
+      <div className="designme"/>
       <p>I am a passionate software developer who enjoys tackling challenging tasks.
          I take honor in learning new skills and advancing myself and solving problems.
           I am an open-minded individual who is always willing to learn and partake in
@@ -16,7 +17,7 @@ const AboutMe = () => {
     {/* <img src={pic}/>  */}
     </div>
      
-    </div>
+    
     </div>
   )
 }
