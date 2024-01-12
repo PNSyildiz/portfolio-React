@@ -1,5 +1,6 @@
 @import "./CSS/HeroSection.css";
 @import "./CSS/AboutMe.css";
+@import "./CSS/Projects.css";
 
 body {
   margin: 0;
@@ -8,6 +9,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
 }
 
 code {
