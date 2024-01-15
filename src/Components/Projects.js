@@ -16,8 +16,10 @@ const Projects = () => {
        <button className='btnG'><SlSocialGithub /> Github</button>
        </div>
        <div className='projects'>
+        <div className="frame4">Project 4</div>
        <div className="frame2">Projetc 2</div>
        <div className="frame3">Project 3</div>
+       
        </div>
       </div> 
       </div>
