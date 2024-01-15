@@ -6,7 +6,7 @@ function App() {
   
   return (
     <div className="Container">
-     <HeroSection title='PNS'/>
+     <HeroSection title='pns'/>
       <AboutMe/>
       <Projects/>
     </div> 

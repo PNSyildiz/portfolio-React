@@ -1,3 +1,7 @@
+import { FcSmartphoneTablet } from "react-icons/fc";
+import { ImDownload } from "react-icons/im";
+
+
 const HeroSection = ({ title }) => {
   return (
     <div>
@@ -11,8 +15,8 @@ const HeroSection = ({ title }) => {
         <p className="p">Creative, Innovative and, Inspired work.</p>
         <p className="p"></p>
         <p className="p"></p>
-        <button className="btn">Contact Me</button>
-        <button className="btn">Get Resume</button>
+        <button className="btn"><FcSmartphoneTablet />  Contact Me</button>
+        <button className="btn"><ImDownload/> Get Resume</button>
       </div>
       <div className="RightSide">
         <div className="topbar">
