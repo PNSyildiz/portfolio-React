@@ -1,6 +1,7 @@
 import React from 'react'
 import { SlSocialGithub } from "react-icons/sl";
 import { PiProjectorScreenChartLight } from "react-icons/pi";
+import { GrFormViewHide } from "react-icons/gr";
 
 
 const Projects = () => {
@@ -16,9 +17,9 @@ const Projects = () => {
        <button className='btnG'><SlSocialGithub /> Github</button>
        </div>
        <div className='projects'>
-        <div className="frame4">Project 4</div>
-       <div className="frame2">Projetc 2</div>
-       <div className="frame3">Project 3</div>
+        <div className="frame4"><GrFormViewHide/></div>
+       <div className="frame2"><GrFormViewHide/></div>
+       <div className="frame3"><GrFormViewHide/></div>
        
        </div>
       </div> 

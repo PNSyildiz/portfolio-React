@@ -1,27 +1,30 @@
 .AboutSection {
-    background-image: url("../Assets/pexels-ovan-57690.jpg");
-    padding: 20px;
+    background-image: url("../Assets/pexels-nao-triponez-129208.jpg");
+    /* padding: 20px; */
     height:480px ;
     border: solid black;
-    padding: 1%;
-    margin: 60px;
+    /* padding: 2%; */
+    margin: 80px;
+    width: 75rem;
     margin-bottom: 120px;
     color: rgb(111, 168, 218);
      filter: blur(1.5px);
+     background-size: cover;
+     background-repeat: no-repeat;
     
 }
 
 .Aboutme h1{
     font-family: fantasy;
     padding-left: 1%;
-    color: rgb(94, 24, 94);  
+    color: rgb(97, 3, 97);  
     font-size: 40px;
     margin-bottom: 10px;
 }
 
 .designme{
    height:2px;
-   background-color: rgb(240, 245, 248);
+   background-color: rgb(17, 20, 22);
    width: 15rem;
 }
 .Aboutme {
@@ -35,6 +38,6 @@
     margin-top: -500px;
     filter: brightness(5);
     padding: 2%;
-    color: rgb(238, 242, 245);
+    color: rgb(235, 237, 238);
     border: solid rgb(10, 60, 104);
 }

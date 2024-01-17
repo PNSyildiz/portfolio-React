@@ -3,8 +3,7 @@
     flex-direction: row;
     justify-content: left;
     background-image: url('../Assets/pexels-晋欧-朱-2848289.jpg');
-    /* border: 1px solid black; */
-    /* padding: 5px; */
+    background-repeat: no-repeat;
     height: 600px;
 }
 
@@ -89,6 +88,8 @@
     margin-left: -90px;
     transition: transform .2s;
     transform: rotate(20deg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .Image:hover {

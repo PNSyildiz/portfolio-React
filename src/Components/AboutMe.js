@@ -14,7 +14,7 @@ const AboutMe = () => {
          I take honor in learning new skills and advancing myself and solving problems.
           I am an open-minded individual who is always willing to learn and partake in
            activities that give me the opportunity to advance my skills.</p>
-    {/* <img src={pic}/>  */}
+    
     </div>
      
     

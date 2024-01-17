@@ -1,5 +1,5 @@
 .ProjectSection{
-    margin: 250px;
+    margin: 200px;
     /* background-color: rgb(14, 10, 10); */
     height: 40rem;
     width: 83.5rem;
@@ -61,21 +61,29 @@ font-size: larger;
       }
 
       .frame2{
-        
+            background-image: url('../Assets/pexels-designecologist-1779487.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
             grid-column: 1 / span 2;
             grid-row: 1;
-            border: solid black;
+            /* border: solid rgb(81, 4, 97); */
             border-radius: 20px;
       }
   
       .frame3 {
+        background-image: url('../Assets/pexels-ovan-57690.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
         grid-column: 1 / span 3;
         grid-row: 2;
-        border: solid black;
+        /* border: solid rgb(107, 13, 116); */
         border-radius: 20px;
       }
       .frame4 {
-        border: solid black;
+        background-image: url('../Assets/pexels-pixabay-266688.jpg');
+        /* border: solid rgb(125, 7, 129); */
         border-radius: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
       }
 
