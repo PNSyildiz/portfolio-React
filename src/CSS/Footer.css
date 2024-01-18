@@ -1,0 +1,30 @@
+.footer{
+    margin: 5rem;
+}
+
+.footer h6{
+    font-size: large;
+    margin-left: 5px;
+}
+.footer h5{
+    font-size: large;
+    margin-left: 5px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-left: -1rem;
+}
+
+.icon{
+    margin: 1rem;
+    height:1.5rem;
+    width:1.5rem;
+}
+
+.designme1{
+    height:2px;
+    background-color: rgb(17, 20, 22);
+    width: 7rem;
+ }

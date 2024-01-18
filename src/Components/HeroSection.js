@@ -21,7 +21,7 @@ const HeroSection = ({ title }) => {
       <div className="RightSide">
         <div className="topbar">
           <a className="home">HOME</a>
-          <a>ABOUT</a>
+          <a>ABOUTME</a>
           <a>PROJECTS</a>
         </div>
         <div className="Image">
