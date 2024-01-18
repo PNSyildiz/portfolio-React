@@ -1,9 +1,9 @@
 import React from 'react'
   import { TiSocialFacebook } from "react-icons/ti";
-  import { MdOutgoingMail } from "react-icons/md";
+  import { MdEmail, MdEmojiTransportation, MdMarkEmailRead, MdOutgoingMail } from "react-icons/md";
   import { TiSocialTwitter } from "react-icons/ti";
   import { SlSocialGithub } from "react-icons/sl";
-  import { BsPhoneVibrateFill } from "react-icons/bs";
+  import { BsInputCursorText, BsPhoneVibrateFill } from "react-icons/bs";
 
   import { SlSocialLinkedin } from "react-icons/sl";
 
@@ -27,7 +27,14 @@ const Footer = ({title}) => {
       </div>
 
       <div className='right-footer'>
-        
+        <div className='designme'/>
+        < h3>Send Me An Email <MdMarkEmailRead/></h3>
+        <form className='form'>
+            <label>Enter Email :</label>
+            <input className='input'/>
+            <textarea>message</textarea>
+            <button>Send</button>
+        </form>
       </div>
     </div>
   )
