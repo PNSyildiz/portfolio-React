@@ -1,5 +1,6 @@
 import { FcSmartphoneTablet } from "react-icons/fc";
 import { ImDownload } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 
 const HeroSection = ({ title }) => {
@@ -20,8 +21,8 @@ const HeroSection = ({ title }) => {
       </div>
       <div className="RightSide">
         <div className="topbar">
-          <a className="home">HOME</a>
-          <a>ABOUTME</a>
+          <Link to="./Contacts.js">Contacts</Link>
+          <a >ABOUTME</a>
           <a>PROJECTS</a>
         </div>
         <div className="Image">
