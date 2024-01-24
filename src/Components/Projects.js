@@ -6,11 +6,11 @@ import { GrFormViewHide } from "react-icons/gr";
 
 const Projects = () => {
   return (
-    <div>
+    <div id='projects'>
       <div className='ProjectSection'>
         <h1 className='title'>PROJECTS</h1>
       <div className='frames'>
-        <h1>pnsYildiz</h1>
+        
         <div className="frame1">
        <h1>Explore My Work</h1>
        <p>View my github account for more projects <PiProjectorScreenChartLight/> </p>

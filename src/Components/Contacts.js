@@ -8,11 +8,10 @@ import React from 'react'
   import { SlSocialLinkedin } from "react-icons/sl";
 
 
-
-const contact = ({title}) => {
+const contact = () => {
   return (
   <div>
-  <h1 className='h11'>CONTACTS</h1>
+  <h1 id="Contact"className='h11'>CONTACTS</h1>
     <div className='contact'>
       
       <div className='left-contact'> 
@@ -25,7 +24,7 @@ const contact = ({title}) => {
         <SlSocialLinkedin  className='icon'/>
         <SlSocialGithub  className='icon'/>
       </div>
-      <h1>{title}</h1>
+      <h1>PNS</h1>
       <div className='designme1'/>
       </div>
 

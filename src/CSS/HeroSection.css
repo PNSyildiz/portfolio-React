@@ -27,7 +27,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-left: 10%;
-    padding :2%;
+    padding :1%;
 }
 
 .home{
@@ -82,9 +82,9 @@
 .Image {
     background-image: url("../Assets/pexels-designecologist-1779487.jpg");
     border: solid rgb(207, 163, 248);
-    height: 25rem;
+    height: 24rem;
     width: 300px;
-    margin-top: 50px;
+    margin-top: 49px;
     margin-left: -90px;
     transition: transform .2s;
     transform: rotate(20deg);

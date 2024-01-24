@@ -1,25 +1,20 @@
-import pic from "../Assets/HeroImage.jpg";
-import backpic from "../Assets/pexels-ovan-57690.jpg"
-
-
 const AboutMe = () => {
   return (
-    <div>
-      <div className="AboutSection">
-   </div>
-     <div className="Aboutme">
-      <h1>ALL ABOUT ME</h1>  
-      <div className="designme"/>
-      <p>I am a passionate software developer who enjoys tackling challenging tasks.
-         I take honor in learning new skills and advancing myself and solving problems.
-          I am an open-minded individual who is always willing to learn and partake in
-           activities that give me the opportunity to advance my skills.</p>
-    
+    <div id="aboutme">
+      <div className="AboutSection"></div>
+      <div className="Aboutme">
+        <h1>ALL ABOUT ME</h1>
+        <div className="designme" />
+        <p>
+          I am a passionate software developer who enjoys tackling challenging
+          tasks. I take honor in learning new skills and advancing myself and
+          solving problems. I am an open-minded individual who is always willing
+          to learn and partake in activities that give me the opportunity to
+          advance my skills.
+        </p>
+      </div>
     </div>
-     
-    
-    </div>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;
