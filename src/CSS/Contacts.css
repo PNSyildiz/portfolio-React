@@ -1,55 +1,72 @@
-.contact{
-    margin: 9rem;
+
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container__contact{
+    /* margin: 9rem; */
     display: flex;
+    justify-content: space-around;
 }
- .h11{
-    margin-left: 35rem;
+ .title__h11{
+    display: flex;
+    justify-content: center;
     font-family: fantasy;
-    padding-left: 1%;
     color: rgb(97, 3, 97);  
     font-size: 35px;
-    margin-bottom: -55px;
+    padding-bottom: 2%;    
+    margin-left: -9rem;
 }
 
-.contact h6{
+.email__contact h6{
     font-size: large;
     margin-left: 5px;
     color: rgb(13, 0, 26);
 }
-.contact h5{
+.number__contact h5{
     font-size: large;
     margin-left: 5px;
     color: rgb(13, 0, 26);
 }
 
-.icons{
+.contact__icons{
     display: flex;
     flex-direction: row;
     margin-left: -1rem;
     color: rgb(13, 0, 26);
 }
 
-.icon{
+.contact__icon{
     margin: 1rem;
     height:1.5rem;
     width:1.5rem;
     color: rgb(48, 7, 90);
 }
 
-.designme1{
+.contact__designme1{
     height:2px;
-    background-color: rgb(41, 86, 116);
+    background-color: rgb(179, 100, 161);
     width: 7rem;
+    /* margin-top: 60px; */
     /* padding-top: 5rem; */
  }
 
+ .left__contact{
+    margin-left: -10px;
+    
+ }
 
- .left-contact h1{
+ .left__contact h1{
     color: rgb(36, 3, 68);
     font-family: fantasy;
  }
+ .contact__lowpns{
+    font-size: 70px;
+ }
 
- .right-contact{
+ .right__contact{
     margin-left: 12rem;
     display: flex;
     justify-content: space-between;
@@ -57,19 +74,19 @@
     
  }
 
- .form{
+ .contact__form{
     display: flex;
     flex-direction:block;
     justify-content: space-around;
     margin: 0rem;
  }
 
- .label {
+ .contact__label {
     font-size: large;
     color: rgb(13, 0, 26);
     font-weight: 700;
  }
- .btnF{
+ .contact__btn{
     height: 3rem;
     width: 6rem;
   } 
@@ -84,11 +101,11 @@
     position: relative;
 } */
 
-.input-group__input{
+.group__input{
 color: #000000;
-padding:10px;
+padding:15px;
+width: 25rem;
 border: none;
-/* border-radius: 40px; */
 outline: 2px solid #0a0a0a;
 background-color: transparent;
 transition: outline-color 250ms;
@@ -96,7 +113,7 @@ transition: outline-color 250ms;
 .input-group__input:focus{
     outline-color: #3c50cb;
 }
-.input-group-label{
+.group__label{
     border: #e5e6e9;
     top: 0;
     left: 0%;
@@ -106,7 +123,7 @@ transition: outline-color 250ms;
     transition: transform 200ms;
 }
 
-.input{
+.contact__input{
     transform: transition(0, -30px) scale(1.8);
     
 }
@@ -122,7 +139,7 @@ textarea{
     border-radius: 40px;
 }
 
-.submit{
+.contact__submit{
     background-color:rgb(232, 252, 252);
     color: #000000;
     padding: 10px 20px;

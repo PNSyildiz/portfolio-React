@@ -1,8 +1,16 @@
-@import "./CSS/HeroSection.css";
+/* @import "./CSS/HeroSection.css";
 @import "./CSS/AboutMe.css";
 @import "./CSS/Projects.css";
 @import "./CSS/Contacts.css";
-@import "./CSS/Footer.css";
+@import "./CSS/Footer.css"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: rgb(51, 4, 53);
+}
 
 body {
   margin: 0;

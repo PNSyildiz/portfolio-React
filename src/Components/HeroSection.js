@@ -1,41 +1,77 @@
 import { FcSmartphoneTablet } from "react-icons/fc";
-import { ImDownload } from "react-icons/im";
-import { Link } from "react-router-dom";
-// import Contacts from "./Contacts";
+import { ImDownload} from "react-icons/im";
+import cv from "../Assets/blue-light background.jpg";
+import "../CSS/HeroSection.css";
 
-    function scrollTosection(Contacts) {
-    var section = document.getElementById(Contacts);
-    section.style.display= 'block';
-    }
-  
+
+function scrollTosection(Contacts) {
+  var section = document.getElementById(Contacts);
+  section.style.display = "block";
+}
+
+const downloadDocument = () => {
+  // Create an anchor element
+  const link = document.createElement("a");
+  link.href = cv;
+  link.download = cv;
+
+  // append the anchor to the body
+  document.body.appendChild(link);
+
+  // trigger the download
+  link.click();
+
+  // cleanup
+  document.body.removeChild(link);
+};
+
 const HeroSection = () => {
   return (
     <div>
+      <div className="hero__section">
+        <div className="hero__div-left">
+         <div className="hero__top">
+         <p className="hero__logo">PNS</p>
 
-      <div className="HeroSection">
-        <div className="leftSide">
-          <h1>PNS</h1>
+<div className="hero__navbar">
+<ul className="hero__menu">
+<li><a href="/">Home</a></li>
+<li><a href="#aboutme">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contacts">contacts</a></li>
+</ul>
+</div>
+         </div>
 
-          <h1 className="h1">WELCOME</h1>
-          <h1 className="h1">I AM PASCOA SEKGOTA</h1>
-          <p className="p">A Full-stack Developer Intern.</p>
-          <p className="p">Creative, Innovative and, Inspired work.</p>
-          <p className="p"></p>
-          <p className="p"></p>
-          <button onClick={scrollTosection} className="btn">
-            <FcSmartphoneTablet /> Contact Me
-          </button>
-          <button className="btn">
-            <ImDownload /> Get Resume
-          </button>
-        </div>
-        <div className="RightSide">
-          <div className="topbar">
-            <Link to="/">HOME</Link>
-            <a href="#aboutme">ABOUTME</a>
-            <a href="#projects">PROJECTS</a>
+        <center>  <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+            WELCOME.
+          </h1>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+            I AM PASCOA SEKGOTA
+          </h1></center>
+          <br/>
+          <br/>
+          <p>A Full-stack Developer Intern.</p>
+          <p>Creative, Innovative and, Inspired work.</p>
+          
+          <div className="hero__buttons">
+            <button
+              onClick={scrollTosection}
+              className="hero__btn text-white font-bold py-2 px-7 rounded"
+            >
+              <FcSmartphoneTablet /> Contact Me
+            </button>
+            <button
+              className="hero__btn text-white font-bold py-2 px-7 rounded"
+              onClick={downloadDocument}
+            >
+              <ImDownload /> Get Resume{" "}
+            </button>
           </div>
-          <div className="Image"></div>
+        </div>
+        <div className="hero__div-right">
+  
+          <div className="hero__image"></div>
         </div>
       </div>
     </div>

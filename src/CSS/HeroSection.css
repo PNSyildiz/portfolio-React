@@ -1,98 +1,282 @@
-.HeroSection{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    background-image: url('../Assets/pexels-晋欧-朱-2848289.jpg');
-    background-repeat: no-repeat;
-    height: 600px;
+.hero__section {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-image: url("../Assets/pexels-晋欧-朱-2848289.jpg");
+  background-repeat: no-repeat;
+  height: 1000px;
 }
 
-.leftSide{
-    padding: 1%;
-    background-color: rgb(242, 247, 247);
-    width: 60%;
-    height: 96%;
-    object-fit: cover;
-    color: rgb(13, 0, 26);
+.hero__div-left {
+  padding: 1%;
+  background-color: rgb(242, 247, 247);
+  width: 60%;
+  height: 96%;
+  object-fit: cover;
+  color: rgb(13, 0, 26);
 }
 
-.RightSide{
-    display: flex;
-    flex-direction: column;
-    padding: 0%;
+.hero__logo {
+  font-weight: 190;
+  
+  font-family: fantasy;
+  color: var(--color-primary);
+  background-color: rgb(189, 186, 186);
+  border-radius: 50%;
+  padding: 1%;
+}
+.hero__top{
+  display: flex;
+  flex-direction: row;
 }
 
-.topbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 10%;
-    padding :1%;
-}
-
-.home{
-    color: rgb(84, 7, 87);
-    font-style: normal;
-    font-size: larger;
-}
-
-.topbar a {
-    font :300;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 50%;
-    padding :15%;
-    font-size: larger;
-}
-.leftSide h1{
-    font-family: fantasy;
-    padding-left: 1%;
-    color: rgb(51, 4, 53);
-
-}
-.h1 {
-    margin: 50px;
-    font-size: 40px;
-}
-.p {
-    margin-left: 50px;
+.hero__navbar {
+  display: flex;
+  justify-content: center;
+  margin-left: 950px;
 }
 
 
-.btn {
-    margin-top: 50px;
-    margin-left: 50px;
-     height: 80px;
-     width: 230px;
-     border: solid rgb(135, 26, 231);
-     background-color: rgb(192, 138, 240);
+.hero__menu {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  font-weight: 400;
+  list-style: none;
 }
 
-.btn:hover{
-    /* border-radius: 30%; */
-    border: solid rgb(202, 166, 236);
-    background-color:rgb(197, 221, 221);
+.hero__menu li {
+  display: flex;
+  flex-direction: row;
+  margin-right: 115px;
 }
 
-.Image img{
+/* .menu-icon {
+  display: none; /* Hide the menu icon by default */
+  /* cursor: pointer; */
+/* } */ */
+.hero__div-right {
+  display: flex;
+  padding: 0%;
+  flex: 1;
+}
+
+
+/* .hero__navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+  padding: 1%;
+} */
+.hero__menu{
+  margin-left: 50rem;
+}
+
+/* .hero__navbar a {
+  text-decoration: none;
+  display: flex;
+
+flex-direction: row;
+} */
+
+
+
+.hero__div-left h1 {
+  font-family: fantasy;
+  padding-left: 1%;
+  color: rgb(51, 4, 53);
+  margin: 50px;
+  font-size: 70px;
+}
+
+
+.hero__div-left p {
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+
+.hero__buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero__btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: .2rem;
+  margin-top: 60px;
+  margin-left: 50px;
+  height: 105px;
+  width: 300px;
+  border: solid rgb(183, 146, 218);
+  background-color: rgb(135, 26, 231);
+}
+
+.hero__btn:hover {
+   border: solid rgb(192, 138, 240) ;
+  background-color:rgb(146, 102, 185) ;
+  /* border-radius: 30%; */
+  height: 115px;
+  width: 315px;
+  color: black;
+ 
+}
+
+.hero__image {
+  background-image: url("../Assets/pexels-designecologist-1779487.jpg");
+  border: solid rgb(207, 163, 248);
+  height: 39.6rem;
+  width: 900px;
+  margin-top: 210px;
+  margin-left: -95px;
+  transition: transform 0.15s;
+  transform: rotate(20deg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__image:hover {
+  transform: scale(1.2);
+  
+}
+
+
+/* Responsiveness */
+/* Breakpoint max-width: 425px, min-width: 320px*/
+@media screen and (max-width: 425px) {
+    .hero__section {
+      background-image: url('../Assets/pexels-晋欧-朱-2848289.jpg');
+      background-color:none;
+      background-size: cover;
+      height:630px;
+      background-repeat: no-repeat;
+      z-index: -3;
+    }
+
+    .hero__image {
+        background-image: none;
+        border: none;
+    }
+
+    .hero__div-left {
+        padding: 0%;
+        background-color: transparent;
+        width: 100%;
+       
+      }
+
+      .hero__div-right{
+        display: none;
+        flex-direction: none;
+       padding: 0%;
+       width: none;
+       flex: none;
+      }
+   
+   
+    .hero__navbar {
+        display: flex;
+        font-size: 0.9rem;
+        color: rgb(174, 89, 177);
+        justify-content: center;
+        margin-left: 40px;
+    }
+   
+
+.hero__div-left h1 {
+  font-family: fantasy;
+  color: rgb(124, 14, 128);
+  font-size: 35px;
+  border: solid 0.5px white;
+}
+
+
+.hero__div-left p {
+  margin-left: 50px;
+  color: rgb(122, 12, 126);
 
 }
 
-.Image {
-    background-image: url("../Assets/pexels-designecologist-1779487.jpg");
-    border: solid rgb(207, 163, 248);
-    height: 24rem;
-    width: 300px;
-    margin-top: 49px;
-    margin-left: -90px;
-    transition: transform .2s;
-    transform: rotate(20deg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    .hero__logo {
+        width: fit-content;
+        color: rgb(107, 9, 110);
+
+    }
+
+    .hero__navbar a {
+         flex-direction: row;
+         margin-right: 100%;  
+    }
+      
+    
+.hero__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
-.Image:hover {
-transform: scale(1.1);
+.hero__btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 80px;
+  margin-left: 20px;
+  height: 80px;
+  width: 180px;
+  border: solid 1px white;
+  background-color: rgb(192, 138, 240);
+}
+/* .hero__menu {
+  display: flex; /* Hide the menu by default on smaller screens */
+  /* top: 100%;
+  left: 0; */
+  /* background-color: #fff;
+  text-align: center; */
+/* } */ */
+
+/* .hero__menu li {
+  display: block;
+  margin: 10px 0;
+} */
+
+.hero__top{
+  display: flex;
+  flex-direction: row;
 }
 
+.hero__menu{
+  font-size: 15px;
+  margin-left: 133px;
+}
+
+.hero__menu a{
+  margin-left: -100px;
+  padding: 0%;
+}
+.hero__menu li {
+  display: flex;
+  flex-direction: row;
+  margin-right: 65px;
+}
+
+.hero__menu-icon {
+  display: block; /* Display the menu icon on smaller screens */
+  font-size: 24px;
+}
+
+/* Hide the checkbox input */
+#menu-toggle {
+  display: none;
+}
+
+/* Show the menu when checkbox is checked */
+#menu-toggle:checked + .hero__menu {
+  display: block;
+}
+
+}
