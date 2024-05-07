@@ -5,109 +5,139 @@
 @tailwind utilities;
 
 
-.container__contact{
-    /* margin: 9rem; */
+.container{
+    /* margin: -9rem; */
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
- .title__h11{
+ .title_h11{
     display: flex;
     justify-content: center;
     font-family: fantasy;
     color: rgb(97, 3, 97);  
-    font-size: 35px;
-    padding-bottom: 2%;    
+    font-size: 45px;
+    margin-top: -9rem;
+    padding-bottom: 5%;    
     margin-left: -9rem;
 }
 
-.email__contact h6{
-    font-size: large;
+/* .Contacts h6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: x-large;
+    margin-left: 5px;
+    color: rgb(13, 0, 26);
+} */
+.number{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    font-size:xx-large;
     margin-left: 5px;
     color: rgb(13, 0, 26);
 }
-.number__contact h5{
-    font-size: large;
-    margin-left: 5px;
-    color: rgb(13, 0, 26);
+.number h5{
+    margin-top: -10px;
+    margin-left: 3.5rem;
 }
 
 .contact__icons{
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
-    margin-left: -1rem;
     color: rgb(13, 0, 26);
 }
 
-.contact__icon{
+.contact__icon {
     margin: 1rem;
-    height:1.5rem;
-    width:1.5rem;
+    height:3.5rem;
+    width:2.5rem;
     color: rgb(48, 7, 90);
+}
+.contact__designme{
+    height:3px;
+    margin-top: 1.5rem;
+    background-color: rgb(117, 72, 107);
+    width: 10rem;
 }
 
 .contact__designme1{
     height:2px;
-    background-color: rgb(179, 100, 161);
-    width: 7rem;
+    background-color: rgb(117, 72, 107);
+    width: 38rem;
     /* margin-top: 60px; */
     /* padding-top: 5rem; */
  }
 
- .left__contact{
-    margin-left: -10px;
-    
- }
+ .Contacts{
+    margin-left: -1.9rem;
 
- .left__contact h1{
+}
+
+ .Contacts h1{
     color: rgb(36, 3, 68);
     font-family: fantasy;
  }
  .contact__lowpns{
     font-size: 70px;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
  }
 
  .right__contact{
-    margin-left: 12rem;
+    margin-left: 20rem;
+    margin-bottom: 8.5rem;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    
+    /* border:solid #965790; */
+    border-radius: 30px;
+    width: 720rem;
+    padding: 1rem;
+    height: 503px;
+    background-color: rgb(234, 247, 255);
+ }
+
+ .SM {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .SM h3{
+    margin-right: 1rem;
+    font-weight: 700;
  }
 
  .contact__form{
     display: flex;
-    flex-direction:block;
-    justify-content: space-around;
-    margin: 0rem;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* margin: 1rem; */
  }
 
  .contact__label {
     font-size: large;
     color: rgb(13, 0, 26);
-    font-weight: 700;
+    /* font-weight: 500; */
+    margin-left: 1rem;
  }
- .contact__btn{
-    height: 3rem;
-    width: 6rem;
-  } 
 
- 
-/* .Form{
-    display: flex;
-    flex-direction:column;
-    justify-content:right;
-    margin-left: 780px;
-    margin-top: 50px;
-    position: relative;
-} */
+ .contact__input{
+    border: solid rgb(135, 26, 231);
+    
+
+ }
 
 .group__input{
-color: #000000;
 padding:15px;
-width: 25rem;
+width: 30rem;
 border: none;
-outline: 2px solid #0a0a0a;
-background-color: transparent;
+background-color: #ffffff;
+outline: 4px solid rgb(135, 26, 231) ;
 transition: outline-color 250ms;
 }
 .input-group__input:focus{
@@ -140,14 +170,21 @@ textarea{
 }
 
 .contact__submit{
-    background-color:rgb(232, 252, 252);
-    color: #000000;
     padding: 10px 20px;
     border-radius: 40px;
-    cursor: pointer;
-    border: solid rgb(180, 102, 180);
-    width: 150px;
-    height: 3rem;
-    margin-left: 10px;
+    cursor:pointer;
+    border: solid rgb(135, 26, 231);
+    background-color: #fffcff;
+    width: 200px;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin-top: -15px;
+    font-size: 20px;
+    color:#250121;
+    font-weight: 500;
 }
-
+.contact__submit:hover{
+    background-color: #e2dfe2;
+}

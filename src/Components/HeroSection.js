@@ -57,12 +57,12 @@ const HeroSection = () => {
           <div className="hero__buttons">
             <button
               onClick={scrollTosection}
-              className="hero__btn text-white font-bold py-2 px-7 rounded"
+              className="hero__btn text-Black font-bold py-2 px-7 "
             >
               <FcSmartphoneTablet /> Contact Me
             </button>
             <button
-              className="hero__btn text-white font-bold py-2 px-7 rounded"
+              className="hero__btn text-Black font-bold py-2 px-7 "
               onClick={downloadDocument}
             >
               <ImDownload /> Get Resume{" "}

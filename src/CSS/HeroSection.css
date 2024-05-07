@@ -18,10 +18,10 @@
 
 .hero__logo {
   font-weight: 190;
-  
+  border: 2px solid rgb(157, 80, 230);
   font-family: fantasy;
   color: var(--color-primary);
-  background-color: rgb(189, 186, 186);
+  background-color: rgb(214, 188, 219);
   border-radius: 50%;
   padding: 1%;
 }
@@ -109,16 +109,17 @@ flex-direction: row;
   gap: .2rem;
   margin-top: 60px;
   margin-left: 50px;
-  height: 105px;
+  height: 100px;
   width: 300px;
-  border: solid rgb(183, 146, 218);
-  background-color: rgb(135, 26, 231);
+  border: solid rgb(157, 80, 230);
+  border-radius: 50px;
+  background-color: transparent;
 }
 
 .hero__btn:hover {
    border: solid rgb(192, 138, 240) ;
-  background-color:rgb(146, 102, 185) ;
-  /* border-radius: 30%; */
+  background-color:rgb(154, 96, 204) ;
+  border-radius: 55px;
   height: 115px;
   width: 315px;
   color: black;

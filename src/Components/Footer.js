@@ -1,13 +1,16 @@
 import React from 'react'
 import { MdCopyright } from "react-icons/md";
-
+import '../CSS/Footer.css';
 
 const Footer = () => {
   return (
     <div>
         <div className='footer'>
-            <h6><MdCopyright/> copy rights reserved. work by PNSYILDIZ</h6>
+          <div className='innerFooter'> 
+            <MdCopyright className='CopyR'/>
+            <h6> Copy Rights Reserved. Work Done By PNSYILDIZ</h6>
         </div>
+        </div> 
       
     </div>
   )
