@@ -27,7 +27,7 @@ const downloadDocument = () => {
 
 const HeroSection = () => {
   return (
-    <div>
+    <div id="home">
       <div className="hero__section">
         <div className="hero__div-left">
          <div className="hero__top">
@@ -35,7 +35,7 @@ const HeroSection = () => {
 
 <div className="hero__navbar">
 <ul className="hero__menu">
-<li><a href="/">Home</a></li>
+<li><a href="#home">Home</a></li>
 <li><a href="#aboutme">About</a></li>
 <li><a href="#projects">Projects</a></li>
 <li><a href="#contacts">contacts</a></li>
@@ -51,8 +51,8 @@ const HeroSection = () => {
           </h1></center>
           <br/>
           <br/>
-          <p>A Full-stack Developer Intern.</p>
-          <p>Creative, Innovative and, Inspired work.</p>
+          <p>A Full-stack Developer Intern.
+           <br/>Creative, Innovative and, Inspired work.</p>
           
           <div className="hero__buttons">
             <button

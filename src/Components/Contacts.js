@@ -10,7 +10,7 @@ import "tailwindcss/tailwind.css"; // Include Tailwind CSS
 
 const contact = () => {
   return (
-    <div className="container mx-auto px-1">
+    <div id='contacts' className="container mx-auto px-1">
       <h1 id="contact" className="title_h11">
         CONTACTS
       </h1>
