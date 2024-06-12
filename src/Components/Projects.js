@@ -15,7 +15,7 @@ const Projects = () => {
         
         <div className="project__frame1">
        <h1>Explore My Work</h1>
-       <p>View my github account for more projects<PiProjectorScreenChartLight/> </p>
+       <p>View my github account for more <br/> projects<PiProjectorScreenChartLight/> </p>
        <button className='project__btnG rounded-full ' onClick={github}>
         <SlSocialGithub /> Github</button>
        </div>

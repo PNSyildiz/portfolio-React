@@ -159,10 +159,10 @@ flex-direction: row;
       background-image: url('../Assets/pexels-晋欧-朱-2848289.jpg');
       background-color:none;
       background-size: cover;
+      padding: 3% ;
       height:690px;
-      width: 29rem;
+      width: 26.5rem;
       background-repeat: no-repeat;
-      z-index: -3;
     }
 
     .hero__image {
@@ -192,7 +192,8 @@ flex-direction: row;
         color: rgb(174, 89, 177);
         font-weight: 30;
         justify-content: center;
-        margin-left: 100px;
+        margin-left: 90px;
+        position: fixed;
     }
    
 
@@ -216,13 +217,14 @@ flex-direction: row;
         width: fit-content;
         color: rgb(107, 9, 110);
         font-weight: 190;
-        border: 2px solid rgb(157, 80, 230);
+        border: 2px solid rgb(175, 68, 170);
         font-family: fantasy;
         color: var(--color-primary);
         background-color: rgb(214, 188, 219);
         border-radius: 50%;
         height: 3.4rem;
         padding: 1%;
+        
          } 
 
     .hero__navbar a {
@@ -244,14 +246,13 @@ flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  margin-top: 80px;
-  margin-left: 20px;
+  margin-top: 100px;
+  margin-left: 18px;
   height: 50px;
   width: 155px;
   font-size: small;
-
-  border: solid 1px white;
-  background-color: rgb(192, 138, 240);
+  border: solid 2px rgb(182, 86, 161);
+  background-color:transparent;
 }
 /* .hero__menu {
   display: flex; /* Hide the menu by default on smaller screens */

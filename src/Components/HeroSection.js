@@ -52,7 +52,8 @@ const HeroSection = () => {
           <br/>
           <br/>
           <p>A Full-stack Developer Intern.
-           <br/>Creative, Innovative and, Inspired work.</p>
+           <br/>Creative, Innovative and, Inspired 
+           <br/>work.</p>
           
           <div className="hero__buttons">
             <button
