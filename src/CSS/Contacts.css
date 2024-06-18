@@ -188,3 +188,113 @@ textarea{
 .contact__submit:hover{
     background-color: #e2dfe2;
 }
+
+@media screen and (max-width:425px) {
+    
+    .container{
+        margin: -9rem;
+        margin-top: -23rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+     .title_h11{
+        display: flex;
+        justify-content: center;
+        font-family: fantasy;
+        color: rgb(97, 3, 97);  
+        font-size: 25px;
+        margin-top: -9rem;
+        padding-bottom: 5%;    
+        margin-left: 0.5rem;
+    }
+     .Contacts{
+        margin-left: -0.1px;
+        width: 26.5rem;
+        /* border: solid black; */
+     }
+     .contact__designme1{
+        width: 20rem;
+        margin-left: 2.4rem;
+     }
+
+     .number {
+        font-size: 16px;
+        margin-left: 10px;
+     }
+
+     .contact__icons{
+        font-size: 10px;
+     }
+
+     .contact__lowpns{
+        font-size: 3rem;
+        margin-left: 2rem;
+     }
+
+     .contact__designme {
+        margin-left: 2rem;
+     }
+
+     .flex {
+        display: flex;
+        flex-direction: column;
+     }
+
+     .right__contact{
+        width: 26.5rem;
+        margin-left: 0px;
+        margin-top: 3rem;
+        height: 20rem;
+    }
+
+    .contact__label {
+        font-size: small;
+    }
+
+    .contact__label {
+        font-size: small;
+        color: rgb(13, 0, 26);
+        /* font-weight: 500; */
+        margin-left: 2rem;
+     }
+    
+     .contact__input{
+        border: 2px solid rgb(135, 26, 231);
+        height: 35px;
+        margin-top: -18px;
+        margin-left: 1rem;
+     }
+
+     .group__input{
+      margin-left: 1rem;
+      height: 65px;
+      width: 22rem;  
+      margin-top: -17px;
+      outline: 2px solid rgb(135, 26, 231) ;
+      transition: outline-color 250ms;  
+    }
+
+    .contact__submit{
+      /* padding: 10px 20px; */
+      border-radius: 30px;
+      cursor:pointer;
+      border: 3px solid rgb(135, 26, 231);
+      background-color: #fffcff;
+      width: 100px;
+      height: 2.5rem;
+      display: flex;
+      justify-content: center;
+      justify-self: center;
+      margin-top: -59px;
+      margin-left: 17rem;
+      font-size: 15px;
+      color:#250121;
+      font-weight: 500;
+  }
+  .contact__submit:hover{
+      background-color: #e2dfe2;
+  }
+
+}
